@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STS - Home</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h2>Sirahauzi Trailers Service</h2>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="booking.html">Services</a>
+            <a href="track.html">Track</a>
+            <a href="login.html">Contact</a>
+            <a href="signup.html">Signup</a>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="receipt.html">Receipt</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Door-to-Door Trailer Transport Across India</h1>
+        <p>Fast, reliable and safe logistics services</p>
+        <button onclick="scrollToForm()">Get Instant Fare Estimate</button>
+    </section>
+
+    <!-- Form Section -->
+    <section id="form-section" class="form-container">
+        <h2>Get Estimate</h2>
+
+        <form id="estimateForm">
+            <input type="text" placeholder="Pickup Location" required>
+            <input type="text" placeholder="Destination" required>
+
+            <select required>
+                <option value="">Select Material</option>
+                <option>Steel Coils</option>
+                <option>Machinery</option>
+                <option>General Goods</option>
+            </select>
+
+            <select required>
+                <option value="">Vehicle Type</option>
+                <option>20ft Trailer</option>
+                <option>40ft Trailer</option>
+            </select>
+
+            <input type="number" placeholder="Weight (tons)">
+
+            <button type="submit">Get Estimate</button>
+        </form>
+    </section>
+
+    <!-- Result Section -->
+    <section id="result" class="result-box" style="display:none;">
+        <h3>Estimated Result</h3>
+        <p>Distance: 250 km</p>
+        <p>Fare: ₹18,500</p>
+
+        <button onclick="window.location.href='booking.html'">Book Now</button>
+        <button onclick="scrollToForm()">Modify</button>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
