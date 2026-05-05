@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Booking - STS</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="form-container">
+    <h2>Booking Details</h2>
+
+    <!-- Quote Summary -->
+    <div class="summary-box">
+        <p><b>Pickup:</b> Bhopal</p>
+        <p><b>Destination:</b> Indore</p>
+        <p><b>Material:</b> Steel</p>
+        <p><b>Vehicle:</b> 20ft Trailer</p>
+        <p><b>Fare:</b> ₹18,500</p>
+    </div>
+
+    <!-- Booking Form -->
+    <form onsubmit="goToReceipt(event)">
+        <input type="date" required>
+
+        <select required>
+            <option>Select Time</option>
+            <option>Morning</option>
+            <option>Afternoon</option>
+            <option>Evening</option>
+        </select>
+
+        <input type="number" placeholder="Weight (optional)">
+        <textarea placeholder="Special Instructions"></textarea>
+
+        <button type="submit">Confirm Booking</button>
+    </form>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
