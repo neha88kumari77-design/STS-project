@@ -1,0 +1,144 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background: #333;
+    color: white;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: #f4f4f4;
+}
+
+.form-container {
+    padding: 20px;
+    text-align: center;
+}
+
+form input, form select {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+}
+
+button {
+    padding: 10px 20px;
+    background: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.result-box {
+    text-align: center;
+    padding: 20px;
+    background: #e3f2fd;
+}
+.auth-container {
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.auth-container input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.auth-container button {
+    width: 100%;
+}
+.summary-box {
+    background: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f8fafc;
+}
+
+button {
+    background: #1e3a8a;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #172554;
+}
+
+.form-container {
+    background: white;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+@media (max-width: 600px) {
+    .form-container {
+        width: 90%;
+    }
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav {
+        margin-top: 10px;
+    }
+}
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+.status {
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: white;
+    font-size: 12px;
+}
+
+.new { background: orange; }
+.confirmed { background: green; }
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("C:\Users\DELL\OneDrive\Desktop\sts\images\light.jpg");
+    background-size: cover;        /* full screen cover */
+    background-position: center;   /* center align */
+    background-repeat: no-repeat;  /* repeat na ho */
+    height: 100vh;
+}
